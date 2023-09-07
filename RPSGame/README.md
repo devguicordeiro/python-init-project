@@ -1,4 +1,4 @@
-# GUESS THE NUMBER APP
+# ROCK, PAPPER, SCISSORS APP
 
 Just a quick app, a fast game of rock, papper, scissors. 
 App working the way it should.
