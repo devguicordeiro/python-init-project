@@ -15,4 +15,10 @@ def guess(x):
         f"yay, congrats. You have beaten me! The correct answer was: {randomNumber}")
 
 
+def computerGuess(x):
+    low = 1
+    high = x
+    feedback = ""
+
+
 guess(10)
