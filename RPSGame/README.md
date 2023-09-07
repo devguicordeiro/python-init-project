@@ -1,6 +1,7 @@
 # GUESS THE NUMBER APP
 
-Just a quick app, a fast game of rock, papper, scissors.
+Just a quick app, a fast game of rock, papper, scissors. 
+App working the way it should.
 </br>
 I just decovered that in python camelCase is not commonly used. Naturally, i'll stick to camelCase in for this app but in the next we'll be using snake_case as how it is used by the comunity 
 </br>
