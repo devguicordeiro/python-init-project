@@ -1,6 +1,6 @@
 # HANGMAN APP
 
-Just a quick app, a fast hangman game. App working properly. there is almost 3000 words to play in this hangman game
+Just a quick app, a fast hangman game. App working properly. there is almost 3000 words to play in this hangman game. Added the lives functionality to keep the core of the hangman game. 
 </br>
 From now on, we'll be using snake_case. I come from javascript, so I was used to using camelCase. reading a article I saw that in python it is not common so I decided to make this change.
 </br>
