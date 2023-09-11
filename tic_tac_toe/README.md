@@ -1,6 +1,6 @@
 # TIC-TAC-TOE APP
 
-Just a quick tic-tac-toe
+Just a quick tic-tac-toe. This tic-tac-top app will have three game modes, player x player, player x computer and computer x computer (which is not a game but whatever)
 </br>
 Notes: </br>
 I'm still trying to get used to all the programming language changes, but things is working pretty well.
