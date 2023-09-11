@@ -14,3 +14,13 @@ class TicTacToe:
                         for j in range(3)]
         for row in number_board:
             print("| " + " | ".join(row) + " |")
+
+    def available_moves(self):
+        return [i for i, spot in enumerate(self.board) if spot == " "]
+        # moves = []
+        # for (i, spot) in enumerate(self.board):
+        #     # ["x", "x", "o"] --> [(0, "x"), (1, "x"), (2, "o")]
+        #     if spot == " ":
+        #         moves.append(i)
+
+        # return moves
