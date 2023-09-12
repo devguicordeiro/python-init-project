@@ -1,3 +1,7 @@
+import time
+from player import HumanPlayer, RandomComputerPlayer
+
+
 class TicTacToe:
     def __init__(self):
         self.board = [" " for _ in range(9)]  # list to represent board
@@ -87,5 +91,14 @@ def play(game, x_player, o_player, print_game=True):
 
             letter = "O" if letter == "X" else "X"
 
-        if print_game:
-            print("It's a tie!")
+        time.sleep(1)
+
+    if print_game:
+        print("It's a tie!")
+
+
+if __name__ == "__main__":
+    x_player = HumanPlayer("X")
+    o_player = RandomComputerPlayer("O")
+    t = TicTacToe()
+    play(t, x_player, o_player, print_game=True)
