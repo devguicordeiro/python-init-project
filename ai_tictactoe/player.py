@@ -47,7 +47,7 @@ class AiComputerPlayer(Player):
         if len(game.available_moves()) == 9:
             square = random.choice(game.available_moves())
         else:
-            square = self.minimax(game, self.letter)
+            square = self.minimax(game, self.letter)["position"]
         return square
 
     def minima(self, state, player):
@@ -73,3 +73,21 @@ class AiComputerPlayer(Player):
             best = {"position": None,
                     "score": math.inf
                     }
+
+        for possible_move in state.available_moves():
+            state.make_move(possible_move, player)
+
+            sim_score = self.minimax(state, other_player)
+
+            state.board[possible_move] = " "
+            state.current_winner = None
+            sim_score["position"] = possible_move
+
+            if player == max_player:
+                if sim_score["score"] > best["score"]:
+                    best = sim_score
+            else:
+                if sim_score["score"] < best["score"]:
+                    best = sim_score
+
+        return best
