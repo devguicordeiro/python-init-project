@@ -1,6 +1,6 @@
-# AI-TIC_TAC_TOE
+# MINESEEWPER
 
-Here we'll be optimazing our original tic-tac-toe codde to add some utilities and power
+We'll be creating a quite "complex" game but manageble to build.
 </br>
 Notes: </br>
 </br>
