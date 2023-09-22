@@ -4,9 +4,12 @@ import random
 class Board:
     def __init__(self, dim_size, num_bombs):
         self.dim_size = dim_size
+
         self.num_bombs = num_bombs
 
         self.board = self.make_new.board()
+
+        self.assign_values_to_board()
 
         self.dug = set()
 
@@ -27,6 +30,10 @@ class Board:
             bombs_planted += 1
 
         return board
+
+    def assign_values_to_board(self):
+
+        pass
 
 
 def play(dim_size=10, num_bombs=10):
